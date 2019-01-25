@@ -14,6 +14,7 @@
 		CD4B5A9321FB002F00821876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4B5A9121FB002F00821876 /* LaunchScreen.storyboard */; };
 		CD4B5A9E21FB002F00821876 /* IOSLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B5A9D21FB002F00821876 /* IOSLocalizationTests.swift */; };
 		CD4B5AA921FB002F00821876 /* IOSLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B5AA821FB002F00821876 /* IOSLocalizationUITests.swift */; };
+		CD4B5ABA21FB116200821876 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4B5ABC21FB116200821876 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		CD4B5AAA21FB002F00821876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4B5AB621FB049500821876 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		CD4B5AB721FB049500821876 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CD4B5ABD21FB118000821876 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CD4B5ABE21FB119E00821876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				CD4B5A8F21FB002F00821876 /* Assets.xcassets */,
 				CD4B5A9121FB002F00821876 /* LaunchScreen.storyboard */,
 				CD4B5A9421FB002F00821876 /* Info.plist */,
+				CD4B5ABC21FB116200821876 /* Localizable.strings */,
 			);
 			path = IOSLocalization;
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = CD4B5A7C21FB002E00821876;
 			productRefGroup = CD4B5A8621FB002E00821876 /* Products */;
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4B5A9321FB002F00821876 /* LaunchScreen.storyboard in Resources */,
+				CD4B5ABA21FB116200821876 /* Localizable.strings in Resources */,
 				CD4B5A9021FB002F00821876 /* Assets.xcassets in Resources */,
 				CD4B5A8E21FB002E00821876 /* Main.storyboard in Resources */,
 			);
@@ -311,6 +317,15 @@
 				CD4B5AB721FB049500821876 /* sv */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4B5ABC21FB116200821876 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4B5ABD21FB118000821876 /* sv */,
+				CD4B5ABE21FB119E00821876 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

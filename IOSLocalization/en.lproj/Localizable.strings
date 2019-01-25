@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  IOSLocalization
+
+  Created by Pavel Barros Quintanilla on 2019-01-25.
+  Copyright © 2019 Pavel Barros Quintanilla. All rights reserved.
+*/
+
+
+"button_pressed" = "Button pressed";
+"good_bye" = "Good bye!";
